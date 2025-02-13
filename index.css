@@ -96,5 +96,19 @@ nav li {
         flex-direction: column;
         gap: 25px;
     }
+
+    /* journey style */
+
+    .journey{
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .journey-pic{
+        width: 500px;
+        height: 500px;
+    }
+
     
 }
