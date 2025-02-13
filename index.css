@@ -15,6 +15,10 @@ body {
 
 /* navbar style */
 
+header {
+    color: #3A3A3A;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -34,6 +38,50 @@ nav ul {
 nav li {
     list-style: none;
     font-size: 1rem;
+}
+
+/* journey style */
+
+.journey {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.journey h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.journey p {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.journey-btn {
+    background-color: #E02C6D;
+    color: white;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
+/* journey pic */
+
+.journey-pic {
+    background-image: url(/images/Circle\ design.svg);
+    height: 460px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+}
+
+.camera {
+    margin-top: 30px;
 }
 
 /* responsive style */
