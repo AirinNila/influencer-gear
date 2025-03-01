@@ -77,7 +77,7 @@ nav li {
 /* journey pic */
 
 .journey-pic {
-    background-image: url(/images/Circle\ design.svg);
+    background-image: url(./images/Circle\ design.svg);
     height: 465px;
     width: 600px;
     background-repeat: no-repeat;
